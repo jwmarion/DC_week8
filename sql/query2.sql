@@ -55,6 +55,7 @@ select restaurant.category, avg(review.stars)
 from restaurant
 inner join review on review.restaurant_id = restaurant.id
 group by restaurant.category
+
 select *
 from project
 left outer join project_uses_tech
@@ -87,7 +88,7 @@ from(select project.name, count(project_uses_tech.project_id)
 order by count;
 
 select avg(count)
-	from (select tech.name, count(project_uses_tech.tech_id)
+from( select tech.name, count(project_uses_tech.tech_id)
 	from project_uses_tech
-	left join tech on project_uses_tech.tech_id = tech.id
+	right outer join tech on project_uses_tech.tech_id = tech.id
 	group by tech.id) techByCount
