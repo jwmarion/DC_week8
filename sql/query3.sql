@@ -179,14 +179,14 @@ where
 --bonus 2:
 select artist.name as James_collabed_with
 from	(select collab.artist_id
-		from	(select collab.album_id as n
-				from artist
-				join collab on collab.artist_id = artist.id
-				where name = 'James') aid,
-				artist,
-				album,
-				collab
-		where collab.album_id= aid.n
-		group by collab.artist_id) ids,
-		artist
+  		from	(select collab.album_id as n
+      				from artist
+      				join collab on collab.artist_id = artist.id
+      				where name = 'James') aid,
+        			   artist,
+      		       album,
+      	         collab
+  		where collab.album_id= aid.n
+  		group by collab.artist_id) ids,
+  		  artist
 where ids.artist_id = artist.id

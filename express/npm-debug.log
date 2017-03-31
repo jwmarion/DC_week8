@@ -1,0 +1,281 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/james/.nvm/versions/node/v6.9.5/bin/node',
+1 verbose cli   '/Users/james/.nvm/versions/node/v6.9.5/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bs',
+1 verbose cli   '--savepwd' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData bs
+8 silly fetchNamedPackageData bs
+9 silly mapToRegistry name bs
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'bs',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'bs',
+12 silly mapToRegistry   name: 'bs',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/bs
+14 verbose request uri https://registry.npmjs.org/bs
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 2:18:13 PM
+17 verbose request using bearer token for auth
+18 verbose request id c92e56977383730a
+19 verbose etag W/"51299a4e-e82"
+20 verbose lastModified Sun, 24 Feb 2013 04:42:54 GMT
+21 http request GET https://registry.npmjs.org/bs
+22 http 304 https://registry.npmjs.org/bs
+23 verbose headers { server: 'nginx/1.10.1',
+23 verbose headers   'last-modified': 'Sun, 24 Feb 2013 04:42:54 GMT',
+23 verbose headers   etag: '"51299a4e-e82"',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'accept-ranges': 'bytes',
+23 verbose headers   date: 'Fri, 31 Mar 2017 18:18:13 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+23 verbose headers   'x-cache': 'MISS',
+23 verbose headers   'x-cache-hits': '0',
+23 verbose headers   'x-timer': 'S1490984293.176526,VS0,VE39',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 304,
+24 silly get   { server: 'nginx/1.10.1',
+24 silly get     'last-modified': 'Sun, 24 Feb 2013 04:42:54 GMT',
+24 silly get     etag: '"51299a4e-e82"',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Fri, 31 Mar 2017 18:18:13 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-atl6235-ATL',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1490984293.176526,VS0,VE39',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/bs from cache
+26 verbose get saving bs to /Users/james/.npm/registry.npmjs.org/bs/.cache.json
+27 verbose correctMkdir /Users/james/.npm correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule bs@0.1.0 checking installable status
+41 silly cache add args [ 'bs', null ]
+42 verbose cache add spec bs
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'bs',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'bs',
+43 silly cache add   name: 'bs',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed bs@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for bs
+46 info addNameTag [ 'bs', 'latest' ]
+47 silly mapToRegistry name bs
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'bs',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'bs',
+50 silly mapToRegistry   name: 'bs',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/bs
+52 verbose addNameTag registry:https://registry.npmjs.org/bs not in flight; fetching
+53 verbose get https://registry.npmjs.org/bs not expired, no request
+54 silly addNameTag next cb for bs with tag latest
+55 silly addNamed bs@0.1.0
+56 verbose addNamed "0.1.0" is a plain semver version for bs
+57 silly cache afterAdd bs@0.1.0
+58 verbose afterAdd /Users/james/.npm/bs/0.1.0/package/package.json not in flight; writing
+59 verbose correctMkdir /Users/james/.npm correctMkdir not in flight; initializing
+60 verbose afterAdd /Users/james/.npm/bs/0.1.0/package/package.json written
+61 silly fetchNamedPackageData semver
+62 silly mapToRegistry name semver
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'semver',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   escapedName: 'semver',
+65 silly mapToRegistry   name: 'semver',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/semver
+67 silly fetchOtherPackageData es5-compat-table@git://github.com/kangax/es5-compat-table.git#0d1c7f281f
+68 silly cache add args [ 'es5-compat-table@git://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+68 silly cache add   null ]
+69 verbose cache add spec es5-compat-table@git://github.com/kangax/es5-compat-table.git#0d1c7f281f
+70 silly cache add parsed spec Result {
+70 silly cache add   raw: 'es5-compat-table@git://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add   scope: null,
+70 silly cache add   escapedName: 'es5-compat-table',
+70 silly cache add   name: 'es5-compat-table',
+70 silly cache add   rawSpec: 'git://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add   spec: 'git://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add   type: 'hosted',
+70 silly cache add   hosted:
+70 silly cache add    { type: 'github',
+70 silly cache add      ssh: 'git@github.com:kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add      sshUrl: 'git+ssh://git@github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add      httpsUrl: 'git+https://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add      gitUrl: 'git://github.com/kangax/es5-compat-table.git#0d1c7f281f',
+70 silly cache add      shortcut: 'github:kangax/es5-compat-table#0d1c7f281f',
+70 silly cache add      directUrl: 'https://raw.githubusercontent.com/kangax/es5-compat-table/0d1c7f281f/package.json' } }
+71 verbose addRemoteGit caching git://github.com/kangax/es5-compat-table.git#0d1c7f281f
+72 verbose addRemoteGit git://github.com/kangax/es5-compat-table.git#0d1c7f281f is a repository hosted by github
+73 silly tryClone cloning git://github.com/kangax/es5-compat-table.git#0d1c7f281f via git://github.com/kangax/es5-compat-table.git#0d1c7f281f
+74 verbose tryClone git-github-com-kangax-es5-compat-table-git-0d1c7f281f-31254842 not in flight; caching
+75 verbose correctMkdir /Users/james/.npm/_git-remotes correctMkdir not in flight; initializing
+76 verbose request uri https://registry.npmjs.org/semver
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 2:18:13 PM
+79 verbose request using bearer token for auth
+80 verbose etag W/"58d3797d-11bb1"
+81 verbose lastModified Thu, 23 Mar 2017 07:30:05 GMT
+82 http request GET https://registry.npmjs.org/semver
+83 info git [ 'config', '--get', 'remote.origin.url' ]
+84 silly validateExistingRemote git://github.com/kangax/es5-compat-table.git#0d1c7f281f remote.origin.url: git://github.com/kangax/es5-compat-table.git
+85 verbose validateExistingRemote git://github.com/kangax/es5-compat-table.git#0d1c7f281f is updating existing cached remote /Users/james/.npm/_git-remotes/git-github-com-kangax-es5-compat-table-git-0d1c7f281f-31254842
+86 info git [ 'fetch', '-a', 'origin' ]
+87 http 304 https://registry.npmjs.org/semver
+88 verbose headers { server: 'nginx/1.10.1',
+88 verbose headers   'last-modified': 'Thu, 23 Mar 2017 07:30:05 GMT',
+88 verbose headers   etag: '"58d3797d-11bb1"',
+88 verbose headers   'cache-control': 'max-age=300',
+88 verbose headers   'accept-ranges': 'bytes',
+88 verbose headers   date: 'Fri, 31 Mar 2017 18:18:13 GMT',
+88 verbose headers   via: '1.1 varnish',
+88 verbose headers   connection: 'keep-alive',
+88 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+88 verbose headers   'x-cache': 'MISS',
+88 verbose headers   'x-cache-hits': '0',
+88 verbose headers   'x-timer': 'S1490984293.363918,VS0,VE19',
+88 verbose headers   vary: 'Accept-Encoding' }
+89 silly get cb [ 304,
+89 silly get   { server: 'nginx/1.10.1',
+89 silly get     'last-modified': 'Thu, 23 Mar 2017 07:30:05 GMT',
+89 silly get     etag: '"58d3797d-11bb1"',
+89 silly get     'cache-control': 'max-age=300',
+89 silly get     'accept-ranges': 'bytes',
+89 silly get     date: 'Fri, 31 Mar 2017 18:18:13 GMT',
+89 silly get     via: '1.1 varnish',
+89 silly get     connection: 'keep-alive',
+89 silly get     'x-served-by': 'cache-atl6235-ATL',
+89 silly get     'x-cache': 'MISS',
+89 silly get     'x-cache-hits': '0',
+89 silly get     'x-timer': 'S1490984293.363918,VS0,VE19',
+89 silly get     vary: 'Accept-Encoding' } ]
+90 verbose etag https://registry.npmjs.org/semver from cache
+91 verbose get saving semver to /Users/james/.npm/registry.npmjs.org/semver/.cache.json
+92 verbose correctMkdir /Users/james/.npm correctMkdir not in flight; initializing
+93 silly resolveWithNewModule semver@1.1.3 checking installable status
+94 silly cache add args [ 'semver@1.1.3', null ]
+95 verbose cache add spec semver@1.1.3
+96 silly cache add parsed spec Result {
+96 silly cache add   raw: 'semver@1.1.3',
+96 silly cache add   scope: null,
+96 silly cache add   escapedName: 'semver',
+96 silly cache add   name: 'semver',
+96 silly cache add   rawSpec: '1.1.3',
+96 silly cache add   spec: '1.1.3',
+96 silly cache add   type: 'version' }
+97 silly addNamed semver@1.1.3
+98 verbose addNamed "1.1.3" is a plain semver version for semver
+99 silly mapToRegistry name semver
+100 silly mapToRegistry using default registry
+101 silly mapToRegistry registry https://registry.npmjs.org/
+102 silly mapToRegistry data Result {
+102 silly mapToRegistry   raw: 'semver',
+102 silly mapToRegistry   scope: null,
+102 silly mapToRegistry   escapedName: 'semver',
+102 silly mapToRegistry   name: 'semver',
+102 silly mapToRegistry   rawSpec: '',
+102 silly mapToRegistry   spec: 'latest',
+102 silly mapToRegistry   type: 'tag' }
+103 silly mapToRegistry uri https://registry.npmjs.org/semver
+104 verbose addNameVersion registry:https://registry.npmjs.org/semver not in flight; fetching
+105 verbose get https://registry.npmjs.org/semver not expired, no request
+106 silly cache afterAdd semver@1.1.3
+107 verbose afterAdd /Users/james/.npm/semver/1.1.3/package/package.json not in flight; writing
+108 verbose correctMkdir /Users/james/.npm correctMkdir not in flight; initializing
+109 verbose afterAdd /Users/james/.npm/semver/1.1.3/package/package.json written
+110 verbose updateRemote git fetch -a origin (git://github.com/kangax/es5-compat-table.git)
+111 verbose correctMkdir /Users/james/.npm/_git-remotes correctMkdir not in flight; initializing
+112 verbose setPermissions git://github.com/kangax/es5-compat-table.git#0d1c7f281f set permissions on /Users/james/.npm/_git-remotes/git-github-com-kangax-es5-compat-table-git-0d1c7f281f-31254842
+113 verbose resolveHead git://github.com/kangax/es5-compat-table.git#0d1c7f281f original treeish: 0d1c7f281f
+114 info git [ 'rev-list', '-n1', '0d1c7f281f' ]
+115 error git rev-list -n1 0d1c7f281f: fatal: ambiguous argument '0d1c7f281f': unknown revision or path not in the working tree.
+115 error git rev-list -n1 0d1c7f281f: Use '--' to separate paths from revisions, like this:
+115 error git rev-list -n1 0d1c7f281f: 'git <command> [<revision>...] -- [<file>...]'
+116 silly fetchPackageMetaData Error: Command failed: git rev-list -n1 0d1c7f281f
+116 silly fetchPackageMetaData fatal: ambiguous argument '0d1c7f281f': unknown revision or path not in the working tree.
+116 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+116 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+116 silly fetchPackageMetaData
+116 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+116 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+116 silly fetchPackageMetaData  error for es5-compat-table@git://github.com/kangax/es5-compat-table.git#0d1c7f281f { Error: Command failed: git rev-list -n1 0d1c7f281f
+116 silly fetchPackageMetaData fatal: ambiguous argument '0d1c7f281f': unknown revision or path not in the working tree.
+116 silly fetchPackageMetaData Use '--' to separate paths from revisions, like this:
+116 silly fetchPackageMetaData 'git <command> [<revision>...] -- [<file>...]'
+116 silly fetchPackageMetaData
+116 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:206:12)
+116 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+116 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+116 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:877:16)
+116 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+116 silly fetchPackageMetaData   killed: false,
+116 silly fetchPackageMetaData   code: 128,
+116 silly fetchPackageMetaData   signal: null,
+116 silly fetchPackageMetaData   cmd: 'git rev-list -n1 0d1c7f281f' }
+117 silly rollbackFailedOptional Starting
+118 silly rollbackFailedOptional Finishing
+119 silly runTopLevelLifecycles Finishing
+120 silly install printInstalled
+121 verbose stack Error: Command failed: git rev-list -n1 0d1c7f281f
+121 verbose stack fatal: ambiguous argument '0d1c7f281f': unknown revision or path not in the working tree.
+121 verbose stack Use '--' to separate paths from revisions, like this:
+121 verbose stack 'git <command> [<revision>...] -- [<file>...]'
+121 verbose stack
+121 verbose stack     at ChildProcess.exithandler (child_process.js:206:12)
+121 verbose stack     at emitTwo (events.js:106:13)
+121 verbose stack     at ChildProcess.emit (events.js:191:7)
+121 verbose stack     at maybeClose (internal/child_process.js:877:16)
+121 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+122 verbose cwd /Users/james/Documents/workspace/DC/week8/express
+123 error Darwin 16.4.0
+124 error argv "/Users/james/.nvm/versions/node/v6.9.5/bin/node" "/Users/james/.nvm/versions/node/v6.9.5/bin/npm" "install" "bs" "--savepwd"
+125 error node v6.9.5
+126 error npm  v3.10.10
+127 error code 128
+128 error Command failed: git rev-list -n1 0d1c7f281f
+128 error fatal: ambiguous argument '0d1c7f281f': unknown revision or path not in the working tree.
+128 error Use '--' to separate paths from revisions, like this:
+128 error 'git <command> [<revision>...] -- [<file>...]'
+129 error If you need help, you may report this error at:
+129 error     <https://github.com/npm/npm/issues>
+130 verbose exit [ 1, true ]
